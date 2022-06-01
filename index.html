@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boostrap Project</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+
+  <body id="body">
+    <!-- *********** NAVBAR *********** -->
+    <nav class="navbar navbar-expand-md bg-warning bg-gradient">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img class="ms-3" src="./img/CLARUSWAY_LOGO.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 me-3 mb-lg-0 fw-bold">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#students">Students</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#courses">Courses</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- *********** CAROUSEL *********** -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="./img/slider1.jpg" class="d-block w-100" alt="slider-1" />
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Popular Education</h1>
+            <p>Some representative placeholder content for the first slide.</p>
+            <div class="buttons">
+              <button class="btn btn-danger">Start Now</button>
+              <button class="btn btn-warning">Register</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <img src="./img/slider2.jpg" class="d-block w-100" alt="slider-2" />
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Successful Future</h1>
+            <p>Some representative placeholder content for the second slide.</p>
+            <div class="buttons">
+              <button class="btn btn-danger">Start Now</button>
+              <button class="btn btn-warning">Register</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <img src="./img/slider3.jpg" class="d-block w-100" alt="slider-3" />
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Dream Jobs</h1>
+            <p>Some representative placeholder content for the third slide.</p>
+            <div class="buttons">
+              <button class="btn btn-danger">Start Now</button>
+              <button class="btn btn-warning">Register</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- *********** ABOUT *********** -->
+    <main>
+      <section id="about" class="container bg-light">
+        <h1 class="text-danger text-center display-6 pt-3">About Us</h1>
+        <div class="row text-center justify-content-center">
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <i class="fa-solid fa-book-open d-block fa-2x"></i>
+            <h4>Online Courses</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint modi
+              saepe suscipit hic alias iste, provident cumque magnam aliquid
+              est.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <h4>Full-Time Mentoring</h4>
+            <i class="fa-solid fa-headset d-block fa-2x"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint modi
+              saepe suscipit hic alias iste, provident cumque magnam aliquid
+              est.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <h4>Learn Yourself</h4>
+            <i class="fa-solid fa-earth-africa d-block fa-2x"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint modi
+              saepe suscipit hic alias iste, provident cumque magnam aliquid
+              est.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- *********** INSTRUCTORS *********** -->
+    <section id="instructors" class="bg-dark p-3">
+      <h1 class="text-danger text-center display-6">Our Instructors</h1>
+      <div class="row justify-content-center g-3">
+        <div class="col-12 col-sm-6 col-md-4 col-lg3 col-xl-2">
+          <div class="card">
+            <img src="./img/teacher1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Michael Scott</h5>
+              <p class="card-text">Branch Manager</p>
+              <div class="socials d-flex justify-content-around">
+                <i class="fa-brands fa-facebook-square fa-2x text-danger"></i>
+                <i class="fa-brands fa-instagram-square fa-2x text-danger"></i>
+                <i class="fa-brands fa-twitter-square fa-2x text-danger"></i>
+                <i
+                  class="fa-brands fa-google-plus-square fa-2x text-danger"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg3 col-xl-2">
+          <div class="card">
+            <img src="./img/teacher2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Jim Halbert</h5>
+              <p class="card-text">Branch Manager</p>
+              <div class="socials d-flex justify-content-around">
+                <i class="fa-brands fa-facebook-square fa-2x text-danger"></i>
+                <i class="fa-brands fa-instagram-square fa-2x text-danger"></i>
+                <i class="fa-brands fa-twitter-square fa-2x text-danger"></i>
+                <i
+                  class="fa-brands fa-google-plus-square fa-2x text-danger"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg3 col-xl-2">
+          <div class="card">
+            <img src="./img/teacher3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Michael Scott</h5>
+              <p class="card-text">Branch Manager</p>
+              <div class="socials d-flex justify-content-around">
+                <i class="fa-brands fa-facebook-square fa-2x text-danger"></i>
+                <i class="fa-brands fa-instagram-square fa-2x text-danger"></i>
+                <i class="fa-brands fa-twitter-square fa-2x text-danger"></i>
+                <i
+                  class="fa-brands fa-google-plus-square fa-2x text-danger"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg3 col-xl-2">
+          <div class="card">
+            <img src="./img/teacher4.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Michael Scott</h5>
+              <p class="card-text">Branch Manager</p>
+              <div class="socials d-flex justify-content-around">
+                <i class="fa-brands fa-facebook-square fa-2x text-danger"></i>
+                <i class="fa-brands fa-instagram-square fa-2x text-danger"></i>
+                <i class="fa-brands fa-twitter-square fa-2x text-danger"></i>
+                <i
+                  class="fa-brands fa-google-plus-square fa-2x text-danger"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg3 col-xl-2">
+          <div class="card">
+            <img src="./img/teacher5.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Michael Scott</h5>
+              <p class="card-text">Branch Manager</p>
+              <div class="socials d-flex justify-content-around">
+                <i class="fa-brands fa-facebook-square fa-2x text-danger"></i>
+                <i class="fa-brands fa-instagram-square fa-2x text-danger"></i>
+                <i class="fa-brands fa-twitter-square fa-2x text-danger"></i>
+                <i
+                  class="fa-brands fa-google-plus-square fa-2x text-danger"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg3 col-xl-2">
+          <div class="card">
+            <img src="./img/teacher6.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Michael Scott</h5>
+              <p class="card-text">Branch Manager</p>
+              <div class="socials d-flex justify-content-around">
+                <i class="fa-brands fa-facebook-square fa-2x text-danger"></i>
+                <i class="fa-brands fa-instagram-square fa-2x text-danger"></i>
+                <i class="fa-brands fa-twitter-square fa-2x text-danger"></i>
+                <i
+                  class="fa-brands fa-google-plus-square fa-2x text-danger"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- *********** STUDENTS *********** -->
+    <section id="students" class="container bg-light text-center">
+      <h1 class="text-danger display-6">Our Students</h1>
+      <div class="row justify-content-center align-items-center g-3">
+        <div class="col-md-6">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+            iure ea? Quam ea consequuntur ipsum molestiae debitis assumenda
+            repudiandae, delectus voluptates? Quas repellendus quae assumenda
+            quam temporibus, numquam, accusantium architecto dolor totam
+            sapiente eos illo pariatur beatae accusamus, velit quos.
+          </p>
+          <button class="btn btn-danger">Learn More</button>
+        </div>
+        <div class="col-md-6">
+          <img src="./img/students1.png" alt="students" width="70%" />
+        </div>
+      </div>
+    </section>
+
+    <!-- *********** COURSES *********** -->
+    <section id="courses" class="container bg-dark p-3">
+      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="pills-home-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-fs"
+            type="button"
+            role="tab"
+          >
+            Full-Stack
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-profile-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-ds"
+            type="button"
+            role="tab"
+          >
+            Data-Science
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-contact-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-ops"
+            type="button"
+            role="tab"
+          >
+            DevOps
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div
+          class="tab-pane fade show active"
+          id="pills-fs"
+          role="tabpanel"
+          aria-labelledby="pills-home-tab"
+          tabindex="0"
+        >
+          <div class="row">
+            <div class="col-md-6 col-lg-3">
+              <a data-fslightbox href="./img/thumbnail/fs1.jpg"
+                ><img
+                  class="img-thumbnail"
+                  src="./img/thumbnail/fs1.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <a data-fslightbox href="./img/thumbnail/fs2.jpg"
+                ><img
+                  class="img-thumbnail"
+                  src="./img/thumbnail/fs2.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <a data-fslightbox href="./img/thumbnail/fs3.jpg"
+                ><img
+                  class="img-thumbnail"
+                  src="./img/thumbnail/fs3.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <a data-fslightbox href="./img/thumbnail/fs4.jpg"
+                ><img
+                  class="img-thumbnail"
+                  src="./img/thumbnail/fs4.jpg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-ds"
+          role="tabpanel"
+          aria-labelledby="pills-profile-tab"
+          tabindex="0"
+        >
+          <div class="row">
+            <div class="col-md-6 col-lg-3">
+              <a data-fslightbox href="./img/thumbnail/ds1.jpg"
+                ><img
+                  class="img-thumbnail"
+                  src="./img/thumbnail/ds1.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <a data-fslightbox href="./img/thumbnail/ds2.jpg"
+                ><img
+                  class="img-thumbnail"
+                  src="./img/thumbnail/ds2.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <a data-fslightbox href="./img/thumbnail/ds3.jpg"
+                ><img
+                  class="img-thumbnail"
+                  src="./img/thumbnail/ds3.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <a data-fslightbox href="./img/thumbnail/ds4.jpg"
+                ><img
+                  class="img-thumbnail"
+                  src="./img/thumbnail/ds4.jpg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-ops"
+          role="tabpanel"
+          aria-labelledby="pills-contact-tab"
+          tabindex="0"
+        >
+          <div class="row">
+            <div class="col-md-6 col-lg-3">
+              <a data-fslightbox href="./img/thumbnail/ops1.jpg"
+                ><img
+                  class="img-thumbnail"
+                  src="./img/thumbnail/ops1.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <a data-fslightbox href="./img/thumbnail/ops2.jpg"
+                ><img
+                  class="img-thumbnail"
+                  src="./img/thumbnail/ops2.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <a data-fslightbox href="./img/thumbnail/ops3.jpg"
+                ><img
+                  class="img-thumbnail"
+                  src="./img/thumbnail/ops3.jpg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <a data-fslightbox href="./img/thumbnail/ops4.jpg"
+                ><img
+                  class="img-thumbnail"
+                  src="./img/thumbnail/ops4.jpg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- *********** CONTACT *********** -->
+    <section class="container bg-light p-3 text-center" id="contact">
+      <h1 class="text-danger text-center display-6">Contact</h1>
+
+      <article id="form">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+          perspiciatis expedita tempora ut, voluptatem quasi possimus mollitia
+          quisquam dicta voluptatum laboriosam maiores excepturi temporibus
+          repellat veritatis natus neque earum voluptates soluta labore
+          architecto cupiditate vitae odit iure. Perferendis, eaque fugit!
+        </p>
+        <div class="row">
+          <div class="col-sm-12 col-md-4">
+            <i class="fas fa-phone fa-2x"></i>
+            <h5>Phone:</h5>
+            <a href="tel:+1 584 485 78">+1 584 485 78</a>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <i class="fab fa-whatsapp fa-2x"></i>
+            <h5>Whatsapp:</h5>
+            <a href="https://wa.me/+49(333)444 66 77">+49(333)444 66 77</a>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <i class="fas fa-envelope fa-2x"></i>
+            <h5>Email:</h5>
+            <a href="email:info@clarusway.com">info@clarusway.com</a>
+          </div>
+        </div>
+
+        <div class="row g-3 mt-3">
+          <div class="form-floating col-md-6 mb-3">
+            <input
+              type="email"
+              class="form-control"
+              id="floatingInput"
+              placeholder="Enter name"
+            />
+            <label for="floatingInput">Enter name</label>
+          </div>
+          <div class="form-floating col-md-6 mb-3">
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+              placeholder="Enter Subject"
+            />
+            <label for="floatingInput">Enter email</label>
+          </div>
+          <div class="form-floating col-12 mb-3">
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+              placeholder="Enter Subject"
+            />
+            <label for="floatingInput">Enter subject</label>
+          </div>
+          <div class="form-floating col-12 mb-3">
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+              placeholder="Enter Subject"
+            />
+            <label for="floatingInput">Enter your comments</label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-danger">Submit</button>
+      </article>
+      <article id="location" class="mt-3">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.0186213781794!2d13.394592646858865!3d52.521064664846236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851dd8abc4201%3A0x52120465b5fabc0!2sMitte%2C%20Berlin%2C%20Germany!5e0!3m2!1sen!2str!4v1654112206321!5m2!1sen!2str"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </article>
+    </section>
+    <!-- FOOTER -->
+    <footer class="bg-dark text-center text-white p-4">
+      <article>
+        <a href="#"><i class="fab fa-facebook-f"></i></a
+        ><a href="#"><i class="fab fa-youtube"></i></a
+        ><a href="#"><i class="fab fa-linkedin"></i></a
+        ><a href="#"><i class="fab fa-instagram"></i></a>
+      </article>
+
+      <article class="p-4 h6">&copy; 2022 Copyright by 0xkiichiro</article>
+    </footer>
+    <!-- UP-BUTTON -->
+    <a class="up-btn" href="#body"><i class="fas fa-arrow-up"></i></a>
+    <script src="./lib/fslightbox-basic-3.3.1/fslightbox.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
