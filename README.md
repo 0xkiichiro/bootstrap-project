@@ -1,14 +1,16 @@
-# Single Page Applcation
+# Single Page Application
 
 Made a single page app for a bootcamp company. Made a carousel, cards, modal , contact me and location snippet. This is a code along project.
 
 This project is mainly to solidify Bootstrap classes.
 
+fslightbox JS plugin used to focus on fullscreen pictures. Plugin link: https://fslightbox.com/
+
 Some responsiveness added.
 
 # Technologies used
 
-HTML, CSS, Bootstrap
+HTML, CSS, Bootstrap, fslightbox
 
 ## Check the full-functioning site at: https://0xkiichiro.github.io/bootstrap-project-starter/
 
