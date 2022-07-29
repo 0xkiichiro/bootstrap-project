@@ -12,7 +12,7 @@ Some responsiveness added.
 
 HTML, CSS, Bootstrap, fslightbox
 
-## Check the full-functioning site at: https://0xkiichiro.github.io/bootstrap-project-starter/
+## Check the full-functioning site at: https://0xkiichiro.github.io/bootstrap-project/
 
 ![](https://github.com/0xkiichiro/bootstrap-project/blob/master/Animation.gif)
 
